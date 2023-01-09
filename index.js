@@ -1,8 +1,8 @@
 //imports
 const express = require("express");
 const cors = require("cors");
-require("./db/connection");
 require("dotenv").config();
+require("./db/connection");
 const bodyParser = require("body-parser");
 const { waterBodyRouter } = require("./routes/waterbody");
 
